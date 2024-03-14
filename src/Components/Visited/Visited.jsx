@@ -1,5 +1,6 @@
 import PropsTypes from 'prop-types'
 const Visited = ({visitedCountrie,count}) => {
+    localStorage.setItem('visited', JSON.stringify(visitedCountrie));
    return (
         <>
            {/* row 1 */}
